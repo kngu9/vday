@@ -8,3 +8,9 @@ bundle.js
 
 # Dependency directories
 node_modules/
+
+#Others
+*.jpg
+*.jpeg
+*.png
+*.heic
