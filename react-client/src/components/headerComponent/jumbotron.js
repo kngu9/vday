@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
+import '../../../dist/styles.css';
 
 class Jumbotron extends Component{
     render(){
         return(
             <div class="container">
                 <div class="jumbotron">
-                    <h1 class="display-4">Happy Valentine's Day</h1>
-                    <h2 class="lead">These are some of our fun times together.</h2>
+                    <h1 id='jumbotron' class="display-4">Hello. Happy Valentine's Day.</h1>
+                    <h3 id='description' class="lead">Here are some of our fun times together.</h3>
                 </div>
             </div>
         )
