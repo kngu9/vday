@@ -1,12 +1,12 @@
 @import url('https://fonts.google.com/specimen/Dancing+Script');
-@import url('https://fonts.google.com/specimen/Crimson+Text');
+@import url('https://fonts.google.com/specimen/Kalam');
 @font-face {
   font-family: 'Dancing Script';
   src: url('https://fonts.google.com/specimen/Dancing+Script')
 }
 @font-face{
-  font-family: 'Crimson Text';
-  src: url('https://fonts.google.com/specimen/Crimson+Text');
+  font-family: 'Amatic SC';
+  src: url('https://fonts.google.com/specimen/Amatic+SC');
 }
 
 #jumbotron{
@@ -16,7 +16,7 @@
 }
 
 #description{
-  font-family: 'Crimson Text';
+  font-family: 'Amatic SC';
   background-color: black;
   color: pink;
 }

@@ -7,7 +7,7 @@ class Jumbotron extends Component{
             <div class="container">
                 <div class="jumbotron">
                     <h1 id='jumbotron' class="display-1">Hello. Happy Valentine's Day.</h1>
-                    <h4 id='description' class="lead">Here are some of our fun times together.</h4>
+                    <h3 id='description' class="lead">Here are some of our fun times together.</h3>
                 </div>
             </div>
         )
