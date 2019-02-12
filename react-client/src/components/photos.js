@@ -48,6 +48,15 @@ const photos = [
   { src: 'https://i.ibb.co/VvZc6Ct/IMG-0784.jpg', width: 3, height: 4 }
 ];
 
+
+function columns(containerWidth) {
+  let columns = 1;
+  if (containerWidth <= 899) columns = 2;
+  if (containerWidth >= 900) columns = 3;
+  if (containerWidth >= 1500) columns = 4;
+  return columns;
+}
+
 class Photos extends Component {
   constructor() {
     super();
@@ -79,10 +88,11 @@ class Photos extends Component {
       currentImage: this.state.currentImage + 1,
     });
   }
+
   render() {
     return (
       <div>
-        <Gallery photos={photos} onClick={this.openLightbox} />
+        <Gallery photos={photos} columns={columns} onClick={this.openLightbox} />
         <Lightbox images={photos}
           onClose={this.closeLightbox}
           onClickPrev={this.gotoPrevious}
